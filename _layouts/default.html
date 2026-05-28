@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% if page.title %}{{ page.title }} — {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | relative_url }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Source+Serif+4:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --cream: #faf8f3;
+      --warm-white: #fff9f0;
+      --ink: #1a1208;
+      --ink-light: #4a3f2f;
+      --ink-muted: #8a7a65;
+      --gold: #c8922a;
+      --gold-light: #e8b84b;
+      --gold-pale: #f5e9c8;
+      --teal: #1a6b6b;
+      --teal-light: #2a8a8a;
+      --rule: #e0d5c0;
+      --serif: 'Source Serif 4', Georgia, serif;
+      --display: 'Playfair Display', Georgia, serif;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: var(--serif);
+      background: var(--cream);
+      color: var(--ink);
+      font-size: 18px;
+      line-height: 1.75;
+      min-height: 100vh;
+    }
+
+    /* ── Header ── */
+    .site-header {
+      background: var(--ink);
+      padding: 0 2rem;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      border-bottom: 3px solid var(--gold);
+    }
+
+    .header-inner {
+      max-width: 900px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 64px;
+    }
+
+    .site-title {
+      font-family: var(--display);
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: var(--cream);
+      text-decoration: none;
+      letter-spacing: 0.01em;
+    }
+
+    .site-title span {
+      color: var(--gold-light);
+    }
+
+    .header-nav a {
+      color: var(--ink-muted);
+      text-decoration: none;
+      font-size: 0.8rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      font-weight: 600;
+      transition: color 0.2s;
+    }
+
+    .header-nav a:hover { color: var(--gold-light); }
+
+    /* ── Main ── */
+    .site-main {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 3rem 2rem 5rem;
+    }
+
+    /* ── Footer ── */
+    .site-footer {
+      background: var(--ink);
+      color: var(--ink-muted);
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.8rem;
+      letter-spacing: 0.05em;
+      border-top: 3px solid var(--gold);
+    }
+
+    .site-footer a { color: var(--gold-light); text-decoration: none; }
+
+    /* ── Responsive ── */
+    @media (max-width: 600px) {
+      body { font-size: 16px; }
+      .site-main { padding: 2rem 1.25rem 4rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="site-title" href="{{ '/' | relative_url }}">Insurance <span>&</span> Takaful FAQ</a>
+      <nav class="header-nav">
+        <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="site-main">
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <p>© {{ 'now' | date: "%Y" }} Wan Muthalib &nbsp;·&nbsp; AIA Agent, Kuala Lumpur &nbsp;·&nbsp;
+    <a href="mailto:wa.muthalib@gmail.com">wa.muthalib@gmail.com</a> &nbsp;·&nbsp;
+    <a href="https://wa.me/601473150389">+6014 731 5389</a></p>
+  </footer>
+
+</body>
+</html>
