@@ -1,0 +1,17 @@
+title: Insurance & Takaful FAQ
+description: >-
+  Plain-language guides on insurance and takaful in Malaysia,
+  in English and Bahasa Malaysia.
+baseurl: ""
+url: "https://your-username.github.io"   # ← update this
+
+markdown: kramdown
+theme: minima
+
+plugins:
+  - jekyll-feed
+
+exclude:
+  - migrate_notion.py
+  - migration_report.txt
+  - "*.csv"
