@@ -1,12 +1,14 @@
 title: Insurance & Takaful FAQ
 description: "Insurance & takaful guides by Wan Muthalib, AIA Agent based in KL since 2015."
 baseurl: ""
-url: "https://obel1.github.io"
+url: "https://wan-aia.online"
 author: Wan Muthalib
 
 markdown: kramdown
 kramdown:
   input: GFM
+
+permalink: /:slug/
 
 plugins:
   - jekyll-feed
