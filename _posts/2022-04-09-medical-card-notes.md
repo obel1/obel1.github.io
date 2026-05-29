@@ -30,19 +30,19 @@ kecuali:
     3. accident, walaupun tak perlu masuk wad ✅
     4. dialisis buah pinggan ✅
     5. rawatan pesakit luar cancer ✅
-3. [Tempoh menunggu](/posts/tempoh-matang-dan-cara-cara-claim.html) 
+3. [Tempoh menunggu](/2021/01/25/tempoh-matang-dan-cara-cara-claim.html) 
     1. eksiden: 0 hari (tiada)
     2. diseases (covid, denggi dsb): 30 hari
     3. lain-lain (specified illness): 120 hari
 4. Cara claim
-    1. [cashless](/posts/kemasukan-wad-cashless.html) menggunakan Guarantee Letter (GL)
-    2. [reimbursement](/posts/reimbursement-claim.html) (pay and claim). senarai pay and claim:
+    1. [cashless](/2021/01/13/kemasukan-wad-cashless.html) menggunakan Guarantee Letter (GL)
+    2. [reimbursement](/2021/01/18/reimbursement-claim.html) (pay and claim). senarai pay and claim:
         - 2a, 2b, 2c, dan 2d
         - hospital non-panel, contohnya hospital kerajaan
         - 3a & 3b apabila polisi < 90 hari
-        - 3c apabila polisi < 2 tahun. [klik sini untuk sebab](/posts/tempoh-matang-dan-cara-cara-claim.html)
-5. Berkenaan deductible, klik sini: [Deductibles & SMART Deductible](/posts/deductibles-smart-deductible.html) 
-6. Klik di sini untuk [Claims abroad | Claim di luar negara](/posts/claims-abroad-claim-di-luar-negara.html) 
+        - 3c apabila polisi < 2 tahun. [klik sini untuk sebab](/2021/01/25/tempoh-matang-dan-cara-cara-claim.html)
+5. Berkenaan deductible, klik sini: [Deductibles & SMART Deductible](/2024/08/27/deductibles-smart-deductible.html) 
+6. Klik di sini untuk [Claims abroad | Claim di luar negara](/2022/09/21/claims-abroad-claim-di-luar-negara.html) 
 
 [Ada soalan lain?](https://wa.me/60147315389)
 
@@ -75,7 +75,7 @@ kecuali:
         - non-panel hospital, for example government hospitals
         - 3a & 3b when policy < 90 days
         - 3c when policy < 2 years
-5. On deductibles, click here: [Deductibles & SMART Deductible](/posts/deductibles-smart-deductible.html) 
-6. Click here for [Claims abroad | Claim di luar negara](/posts/claims-abroad-claim-di-luar-negara.html) 
+5. On deductibles, click here: [Deductibles & SMART Deductible](/2024/08/27/deductibles-smart-deductible.html) 
+6. Click here for [Claims abroad | Claim di luar negara](/2022/09/21/claims-abroad-claim-di-luar-negara.html) 
 
 [Any questions?](https://wa.me/60147315389)

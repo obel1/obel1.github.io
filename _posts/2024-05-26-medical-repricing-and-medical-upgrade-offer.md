@@ -24,7 +24,7 @@ A summary of what can be done:
     1. If you’re not sure you’re offered, do check with me 🙂
     2. The upgrade can be done via AIA+ app
     3. Some of the added benefits are: 10 million annual limit, no limit of days per year for admissions, health screening limit increase to RM500 annually
-    4. The downside to the upgrade would be that the new [deductible](/posts/deductible-co-insurance-co-takaful.html) increases to RM500 from RM0 / RM300.
+    4. The downside to the upgrade would be that the new [deductible](/2021/02/08/deductible-co-insurance-co-takaful.html) increases to RM500 from RM0 / RM300.
 
 ## **Bahasa Malaysia**
 
@@ -43,4 +43,4 @@ Ringkasan tentang apa yang boleh dilakukan:
     1. Jika anda tidak pasti anda ditawarkan, boleh check dengan saya 🙂
     2. Upgrade ini boleh dilakukan melalui app AIA+
     3. Beberapa faedah tambahan adalah: had tahunan 10 juta, tiada had berapa hari setahun untuk kemasukan wad, had medical check-up meningkat kepada RM500 setiap tahun.
-    4. Kekurangan kepada peningkatan adalah bahawa [deduktibel](/posts/deductible-co-insurance-co-takaful.html) baru meningkat kepada RM500 daripada RM0 / RM300.
+    4. Kekurangan kepada peningkatan adalah bahawa [deduktibel](/2021/02/08/deductible-co-insurance-co-takaful.html) baru meningkat kepada RM500 daripada RM0 / RM300.

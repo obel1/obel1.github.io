@@ -17,7 +17,7 @@ Last week, our agency visited our partner agency in JB for a joint final quarter
 
 Among the many things they shared, there’s one tool I think is suitable for customers to use for their own review and planning, and I shall attach the excel file here. 
 
-It’s usually done as part of [**Policy review**](/posts/policy-review.html) by agents, but it’s also useful to review your own insurance policies as well as savings (EPF and non-EPF) that you have and you can update it from time to time without having to deal with unsolicited advice from other parties.
+It’s usually done as part of [**Policy review**](/2021/07/02/policy-review.html) by agents, but it’s also useful to review your own insurance policies as well as savings (EPF and non-EPF) that you have and you can update it from time to time without having to deal with unsolicited advice from other parties.
 
 I have done some work making this table more accessible to the layman, but should you find difficulty in using the excel or have suggestions for improvement, please let me know. Some things to note:
 
