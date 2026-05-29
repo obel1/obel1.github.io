@@ -4,187 +4,107 @@ layout: default
 
 <style>
   .post-header {
-    border-bottom: 1px solid var(--rule);
-    padding-bottom: 2rem;
-    margin-bottom: 2.5rem;
+    padding-bottom: 1.5rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid var(--border);
   }
 
   .back-link {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.4rem;
-    font-size: 0.75rem;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
+    display: inline-block;
+    font-size: 0.78rem;
     color: var(--ink-muted);
     text-decoration: none;
-    margin-bottom: 1.5rem;
-    transition: color 0.15s;
+    margin-bottom: 1.25rem;
+    font-weight: 500;
   }
 
-  .back-link:hover { color: var(--teal); }
+  .back-link:hover { color: var(--accent); }
 
-  .post-meta-top {
+  .post-meta {
     display: flex;
     align-items: center;
-    gap: 0.75rem;
+    gap: 0.5rem;
     flex-wrap: wrap;
-    margin-bottom: 1rem;
-  }
-
-  .post-date-label {
-    font-size: 0.72rem;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
+    margin-bottom: 0.75rem;
+    font-size: 0.78rem;
     color: var(--ink-muted);
   }
 
   .post-tag {
     font-size: 0.65rem;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    padding: 2px 8px;
-    border-radius: 2px;
-    font-weight: 600;
+    font-weight: 500;
+    padding: 1px 6px;
+    border-radius: 3px;
+    border: 1px solid var(--border);
+    color: var(--ink-muted);
   }
 
-  .tag-claims  { background: #e8f5f0; color: #1a6b4a; }
-  .tag-product { background: #eef3fb; color: #2a5a9a; }
-  .tag-others  { background: var(--gold-pale); color: #7a5a1a; }
-  .tag-lang-bm { background: #f5e8e8; color: #8a2a2a; }
-  .tag-lang-en { background: #e8eef5; color: #2a4a6a; }
+  .tag-claims  { border-color: #b7d5b0; color: #2a6a20; background: #f0f9ee; }
+  .tag-product { border-color: #b0c8e8; color: #1a4a8a; background: #eef4fc; }
+  .tag-lang-bm { border-color: #e8b0b0; color: #8a1a1a; background: #fdf0f0; }
+  .tag-lang-en { border-color: #b0b8e8; color: #1a2a8a; background: #f0f2fc; }
 
   .post-header h1 {
-    font-family: var(--display);
-    font-size: clamp(1.6rem, 4vw, 2.4rem);
-    font-weight: 700;
-    line-height: 1.2;
-    color: var(--ink);
-  }
-
-  /* ── Post body ── */
-  .post-body {
-    max-width: 680px;
-  }
-
-  .post-body h2 {
-    font-family: var(--display);
-    font-size: 1.4rem;
-    font-weight: 700;
-    color: var(--ink);
-    margin: 2.5rem 0 0.75rem;
-    padding-bottom: 0.4rem;
-    border-bottom: 1px solid var(--rule);
-  }
-
-  .post-body h3 {
-    font-family: var(--display);
-    font-size: 1.1rem;
+    font-size: clamp(1.4rem, 3.5vw, 2rem);
     font-weight: 600;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
     color: var(--ink);
-    margin: 2rem 0 0.5rem;
   }
 
-  .post-body p { margin-bottom: 1.25rem; }
-
-  .post-body a {
-    color: var(--teal);
-    text-decoration: none;
-    border-bottom: 1px solid var(--teal-light);
-    transition: color 0.15s;
-  }
-
-  .post-body a:hover { color: var(--gold); border-color: var(--gold); }
-
-  .post-body ul, .post-body ol {
-    padding-left: 1.5rem;
-    margin-bottom: 1.25rem;
-  }
-
-  .post-body li { margin-bottom: 0.4rem; }
-
+  /* ── Body ── */
+  .post-body { max-width: 680px; }
+  .post-body h2 { font-size: 1.2rem; font-weight: 600; margin: 2rem 0 0.6rem; color: var(--ink); }
+  .post-body h3 { font-size: 1rem; font-weight: 600; margin: 1.5rem 0 0.4rem; color: var(--ink); }
+  .post-body p { margin-bottom: 1.1rem; color: var(--ink-light); }
+  .post-body a { color: var(--accent); text-decoration: none; }
+  .post-body a:hover { text-decoration: underline; }
+  .post-body ul, .post-body ol { padding-left: 1.4rem; margin-bottom: 1.1rem; color: var(--ink-light); }
+  .post-body li { margin-bottom: 0.3rem; }
   .post-body strong { color: var(--ink); font-weight: 600; }
-
   .post-body blockquote {
-    border-left: 3px solid var(--gold);
-    padding: 0.75rem 1.25rem;
-    margin: 1.5rem 0;
-    background: var(--gold-pale);
-    border-radius: 0 4px 4px 0;
+    border-left: 3px solid var(--border);
+    padding: 0.5rem 1rem;
+    margin: 1.25rem 0;
+    color: var(--ink-muted);
     font-style: italic;
-    color: var(--ink-light);
   }
+  .post-body img { max-width: 100%; height: auto; border-radius: 4px; margin: 1.25rem 0; border: 1px solid var(--border); }
+  .post-body table { width: 100%; border-collapse: collapse; margin: 1.25rem 0; font-size: 0.88rem; display: block; overflow-x: auto; }
+  .post-body th { background: #f4f4f4; padding: 0.5rem 0.75rem; text-align: left; font-weight: 600; border: 1px solid var(--border); }
+  .post-body td { padding: 0.5rem 0.75rem; border: 1px solid var(--border); vertical-align: top; color: var(--ink-light); }
+  .post-body code { font-size: 0.85em; background: #f4f4f4; padding: 2px 5px; border-radius: 3px; }
 
-  .post-body img {
-    max-width: 100%;
-    height: auto;
+  /* ── Lang jump ── */
+  .lang-jump {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    flex-wrap: wrap;
+    background: #f8f8f8;
+    border: 1px solid var(--border);
     border-radius: 4px;
-    margin: 1.5rem 0;
-    box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+    padding: 0.5rem 0.9rem;
+    margin-bottom: 1.5rem;
+    font-size: 0.78rem;
   }
-
-  .post-body table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 1.5rem 0;
-    font-size: 0.9rem;
-    overflow-x: auto;
-    display: block;
-  }
-
-  .post-body th {
-    background: var(--ink);
-    color: var(--cream);
-    padding: 0.6rem 0.9rem;
-    text-align: left;
-    font-family: var(--display);
-    font-size: 0.8rem;
-    letter-spacing: 0.05em;
-  }
-
-  .post-body td {
-    padding: 0.6rem 0.9rem;
-    border-bottom: 1px solid var(--rule);
-    vertical-align: top;
-    line-height: 1.5;
-  }
-
-  .post-body tr:nth-child(even) td { background: var(--warm-white); }
-
-  .post-body code {
-    font-family: 'Courier New', monospace;
-    font-size: 0.85em;
-    background: var(--gold-pale);
-    padding: 2px 5px;
+  .lang-jump span { color: var(--ink-muted); font-weight: 500; }
+  .lang-jump a {
+    color: var(--accent);
+    text-decoration: none;
+    font-weight: 500;
+    padding: 2px 8px;
+    border: 1px solid #c0d0e8;
     border-radius: 3px;
   }
+  .lang-jump a:hover { background: var(--accent); color: white; border-color: var(--accent); }
 
-  /* ── Post footer ── */
-  .post-footer {
-    margin-top: 3rem;
-    padding-top: 2rem;
-    border-top: 1px solid var(--rule);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 1rem;
-  }
-
-  .post-footer a {
-    font-size: 0.8rem;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    color: var(--teal);
-    text-decoration: none;
-    font-weight: 600;
-  }
-
+  /* ── CTA ── */
   .contact-cta {
-    background: var(--ink);
-    color: var(--cream);
-    padding: 1.5rem 2rem;
+    background: #f8f8f8;
+    border: 1px solid var(--border);
     border-radius: 4px;
+    padding: 1.25rem 1.5rem;
     margin-top: 2.5rem;
     display: flex;
     align-items: center;
@@ -192,46 +112,45 @@ layout: default
     gap: 1rem;
     flex-wrap: wrap;
   }
-
-  .contact-cta p {
-    font-size: 0.9rem;
-    color: var(--ink-muted);
-    margin: 0;
-  }
-
-  .contact-cta strong { color: var(--cream); display: block; margin-bottom: 0.2rem; }
-
+  .contact-cta p { font-size: 0.85rem; color: var(--ink-muted); margin: 0; }
+  .contact-cta strong { color: var(--ink); display: block; font-size: 0.9rem; margin-bottom: 0.2rem; }
   .contact-cta a {
-    background: var(--gold);
-    color: var(--ink);
-    padding: 0.5rem 1.2rem;
+    background: #25d366;
+    color: white;
+    padding: 0.45rem 1rem;
     border-radius: 3px;
     text-decoration: none;
     font-size: 0.8rem;
-    font-weight: 700;
-    letter-spacing: 0.05em;
+    font-weight: 600;
     white-space: nowrap;
-    transition: background 0.15s;
   }
+  .contact-cta a:hover { background: #1da851; }
 
-  .contact-cta a:hover { background: var(--gold-light); }
+  .post-footer {
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--border);
+    font-size: 0.78rem;
+  }
+  .post-footer a { color: var(--ink-muted); text-decoration: none; }
+  .post-footer a:hover { color: var(--accent); }
 </style>
 
 <article>
   <header class="post-header">
     <a class="back-link" href="{{ '/' | relative_url }}">← All Posts</a>
-    <div class="post-meta-top">
-      <span class="post-date-label">{{ page.date | date: "%B %-d, %Y" }}</span>
+    <div class="post-meta">
+      <span>{{ page.date | date: "%B %-d, %Y" }}</span>
       {% if page.tags %}
         {% for tag in page.tags %}
-          {% if tag == "Claims" %}<span class="post-tag tag-claims">{{ tag }}</span>
-          {% elsif tag == "Product Info" %}<span class="post-tag tag-product">{{ tag }}</span>
-          {% else %}<span class="post-tag tag-others">{{ tag }}</span>
+          {% if tag == "Claims" %}<span class="post-tag tag-claims">Claims</span>
+          {% elsif tag == "Product Info" %}<span class="post-tag tag-product">Product Info</span>
+          {% else %}<span class="post-tag">{{ tag }}</span>
           {% endif %}
         {% endfor %}
       {% endif %}
-      {% if page.language contains "Bahasa" %}<span class="post-tag tag-lang-bm">Bahasa Malaysia</span>{% endif %}
-      {% if page.language contains "English" %}<span class="post-tag tag-lang-en">English</span>{% endif %}
+      {% if page.language contains "Bahasa" %}<span class="post-tag tag-lang-bm">BM</span>{% endif %}
+      {% if page.language contains "English" %}<span class="post-tag tag-lang-en">EN</span>{% endif %}
     </div>
     <h1>{{ page.title }}</h1>
   </header>
@@ -243,39 +162,12 @@ layout: default
   <div class="contact-cta">
     <div>
       <strong>Have a question?</strong>
-      <p>Get in touch with Wan Muthalib, AIA Agent · Kuala Lumpur</p>
+      <p>Get in touch with Wan Muthalib · AIA Agent, Kuala Lumpur</p>
     </div>
     <a href="https://wa.me/60147315389">WhatsApp</a>
   </div>
 
   <footer class="post-footer">
     <a href="{{ '/' | relative_url }}">← Back to all posts</a>
-    <a href="{{ '/feed.xml' | relative_url }}">Subscribe via RSS</a>
   </footer>
 </article>
-
-<style>
-.lang-jump {
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
-  flex-wrap: wrap;
-  background: var(--gold-pale);
-  border: 1px solid var(--rule);
-  border-radius: 4px;
-  padding: 0.6rem 1rem;
-  margin-bottom: 1.5rem;
-  font-size: 0.8rem;
-}
-.lang-jump span { color: var(--ink-muted); font-weight: 600; letter-spacing: 0.05em; }
-.lang-jump a {
-  color: var(--teal);
-  text-decoration: none;
-  font-weight: 600;
-  padding: 3px 10px;
-  border: 1px solid var(--teal-light);
-  border-radius: 3px;
-  transition: all 0.15s;
-}
-.lang-jump a:hover { background: var(--teal); color: white; border-color: var(--teal); }
-</style>

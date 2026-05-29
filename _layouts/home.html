@@ -3,153 +3,122 @@ layout: default
 ---
 
 <style>
-  /* ── Hero ── */
   .hero {
-    border-bottom: 1px solid var(--rule);
-    padding-bottom: 2.5rem;
-    margin-bottom: 2.5rem;
-  }
-
-  .hero-eyebrow {
-    font-size: 0.72rem;
-    letter-spacing: 0.18em;
-    text-transform: uppercase;
-    color: var(--gold);
-    font-weight: 600;
-    margin-bottom: 0.75rem;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid var(--border);
   }
 
   .hero h1 {
-    font-family: var(--display);
-    font-size: clamp(2rem, 5vw, 3rem);
-    font-weight: 700;
-    line-height: 1.15;
+    font-size: 1.5rem;
+    font-weight: 600;
     color: var(--ink);
-    margin-bottom: 1rem;
+    margin-bottom: 0.75rem;
+    letter-spacing: -0.02em;
   }
 
   .hero-desc {
-    font-size: 1rem;
+    font-size: 0.95rem;
     color: var(--ink-light);
+    max-width: 580px;
     line-height: 1.65;
-    max-width: 600px;
-    font-style: italic;
+    margin-bottom: 0.75rem;
   }
 
   .hero-contact {
-    margin-top: 1.25rem;
     font-size: 0.85rem;
     color: var(--ink-muted);
   }
 
   .hero-contact a {
-    color: var(--teal);
+    color: var(--accent);
     text-decoration: none;
-    border-bottom: 1px solid var(--teal-light);
-    padding-bottom: 1px;
   }
 
-  /* ── Post list ── */
+  .hero-contact a:hover { text-decoration: underline; }
+
   .posts-header {
     display: flex;
     align-items: baseline;
-    gap: 1rem;
-    margin-bottom: 1.5rem;
+    gap: 0.75rem;
+    margin-bottom: 0.5rem;
   }
 
   .posts-header h2 {
-    font-family: var(--display);
-    font-size: 1.1rem;
-    font-weight: 600;
-    color: var(--ink);
-    letter-spacing: 0.02em;
-  }
-
-  .posts-count {
     font-size: 0.75rem;
-    color: var(--ink-muted);
-    letter-spacing: 0.08em;
+    font-weight: 600;
     text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--ink-muted);
   }
 
-  .post-list {
-    list-style: none;
-  }
+  .post-list { list-style: none; }
 
   .post-item {
     display: grid;
-    grid-template-columns: 90px 1fr;
-    gap: 0 1.5rem;
+    grid-template-columns: 100px 1fr;
+    gap: 0 1.25rem;
     align-items: baseline;
-    padding: 1rem 0;
-    border-bottom: 1px solid var(--rule);
-    transition: background 0.15s;
+    padding: 0.85rem 0;
+    border-bottom: 1px solid var(--border);
   }
 
-  .post-item:first-child { border-top: 1px solid var(--rule); }
+  .post-item:first-child { border-top: 1px solid var(--border); }
 
   .post-date {
-    font-size: 0.72rem;
+    font-size: 0.75rem;
     color: var(--ink-muted);
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
     white-space: nowrap;
-    padding-top: 2px;
   }
 
   .post-link {
-    font-family: var(--display);
-    font-size: 1rem;
-    font-weight: 600;
+    font-size: 0.95rem;
+    font-weight: 500;
     color: var(--ink);
     text-decoration: none;
-    line-height: 1.35;
-    transition: color 0.15s;
   }
 
-  .post-link:hover { color: var(--teal); }
+  .post-link:hover { color: var(--accent); }
 
   .post-tags {
-    margin-top: 0.3rem;
+    margin-top: 0.25rem;
     display: flex;
-    gap: 0.4rem;
+    gap: 0.35rem;
     flex-wrap: wrap;
   }
 
   .tag {
     font-size: 0.65rem;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    padding: 2px 7px;
-    border-radius: 2px;
-    font-weight: 600;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    padding: 1px 6px;
+    border-radius: 3px;
+    border: 1px solid var(--border);
+    color: var(--ink-muted);
+    background: var(--white);
   }
 
-  .tag-claims    { background: #e8f5f0; color: #1a6b4a; }
-  .tag-product   { background: #eef3fb; color: #2a5a9a; }
-  .tag-others    { background: var(--gold-pale); color: #7a5a1a; }
-  .tag-lang-bm   { background: #f5e8e8; color: #8a2a2a; }
-  .tag-lang-en   { background: #e8eef5; color: #2a4a6a; }
+  .tag-claims  { border-color: #b7d5b0; color: #2a6a20; background: #f0f9ee; }
+  .tag-product { border-color: #b0c8e8; color: #1a4a8a; background: #eef4fc; }
+  .tag-lang-bm { border-color: #e8b0b0; color: #8a1a1a; background: #fdf0f0; }
+  .tag-lang-en { border-color: #b0b8e8; color: #1a2a8a; background: #f0f2fc; }
 
   @media (max-width: 500px) {
-    .post-item { grid-template-columns: 1fr; gap: 0.2rem; }
-    .post-date { font-size: 0.68rem; }
+    .post-item { grid-template-columns: 1fr; gap: 0.15rem; }
   }
 </style>
 
 <div class="hero">
-  <p class="hero-eyebrow">Knowledge Base</p>
-  <h1>Insurance &amp;<br>Takaful FAQ</h1>
+  <h1>Insurance &amp; Takaful FAQ</h1>
   <p class="hero-desc">My name is Wan Muthalib. I'm an insurance and takaful agent with AIA, based in Kuala Lumpur. I've been doing this since 2015, and I hope my experience can help you with any insurance-related question you might have.</p>
   <p class="hero-contact">
-    <a href="tel:+60147315389">+6014 731 5389</a> &nbsp;·&nbsp;
+    <a href="https://wa.me/60147315389">+6014 731 5389</a> &nbsp;·&nbsp;
     <a href="mailto:wa.muthalib@gmail.com">wa.muthalib@gmail.com</a>
   </p>
 </div>
 
 <div class="posts-header">
-  <h2>All Posts</h2>
-  <span class="posts-count">{{ site.posts | size }} articles</span>
+  <h2>{{ site.posts | size }} Posts</h2>
 </div>
 
 <ul class="post-list">
@@ -161,9 +130,9 @@ layout: default
       <div class="post-tags">
         {% if post.tags %}
           {% for tag in post.tags %}
-            {% if tag == "Claims" %}<span class="tag tag-claims">{{ tag }}</span>
-            {% elsif tag == "Product Info" %}<span class="tag tag-product">{{ tag }}</span>
-            {% else %}<span class="tag tag-others">{{ tag }}</span>
+            {% if tag == "Claims" %}<span class="tag tag-claims">Claims</span>
+            {% elsif tag == "Product Info" %}<span class="tag tag-product">Product Info</span>
+            {% else %}<span class="tag">{{ tag }}</span>
             {% endif %}
           {% endfor %}
         {% endif %}
