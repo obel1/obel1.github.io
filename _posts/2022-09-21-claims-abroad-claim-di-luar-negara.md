@@ -7,10 +7,15 @@ tags:
 layout: post
 ---
 
+<div class="lang-jump">
+  <span>Jump to:</span>
+  <a href="#english">🇬🇧 English</a>
+  <a href="#bahasa-malaysia">🇲🇾 Bahasa Malaysia</a>
+</div>
+
 **Contents**
 
-## **English**
-
+## <span id="english"></span>English
 This post is generally applicable to Malaysians only (with some exceptions), as most policies of non-Malaysia citizens have amended terms.
 
 Terms for claims abroad are generally the same as claims domestically, with some differences:
@@ -26,8 +31,7 @@ Terms for claims abroad are generally the same as claims domestically, with some
 
 Cheers. - wan 
 
-## **Bahasa Malaysia**
-
+## <span id="bahasa-malaysia"></span>Bahasa Malaysia
 Terma claim di luar negara sama seperti claim di Malaysia, tetapi ada beberapa perbezaan: 
 
 - Claim hanya “pay and claim”, tidak cashless.

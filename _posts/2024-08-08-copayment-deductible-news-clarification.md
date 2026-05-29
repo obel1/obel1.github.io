@@ -7,10 +7,15 @@ tags:
 layout: post
 ---
 
+<div class="lang-jump">
+  <span>Jump to:</span>
+  <a href="#english">🇬🇧 English</a>
+  <a href="#bahasa-malaysia">🇲🇾 Bahasa Malaysia</a>
+</div>
+
 **Contents**
 
-## **English**
-
+## <span id="english"></span>English
 Some of you may have read the CodeBlue post on copayments or seen derivatives of it on social media. If you're wondering whether your existing plan is affected by this, the answer is no. Bank Negara says:
 
 - With effect from 1 September 2024, insurers and takaful operators (ITOs) must offer consumers an option to purchase MHIT products with a co-payment feature.
@@ -25,8 +30,7 @@ As for AIA, our newer plans now all have deductibles. So far, existing policies 
 
 However, this has never been done before. What has happened a few times over the past few years have been medical repricings (premium increases). I hope this clarifies things. 
 
-## **Bahasa Malaysia**
-
+## <span id="bahasa-malaysia"></span>Bahasa Malaysia
 Anda mungkin telah membaca artikel CodeBlue mengenai copayment atau melihatnya di media sosial. Sekiranya anda tertanya sama ada pelan sedia ada anda terjejas oleh perkara ini, jawapannya adalah tidak. Kenyataan dari Bank Negara:
 
 - Berkuat kuasa 1 September 2024, penanggung insurans dan pengendali takaful (*insurers and takaful operators, ITO*) dikehendaki menawarkan pilihan kepada pengguna untuk membeli produk MHIT yang mempunyai ciri-ciri pembayaran bersama.

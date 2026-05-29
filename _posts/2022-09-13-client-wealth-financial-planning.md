@@ -7,10 +7,15 @@ tags:
 layout: post
 ---
 
+<div class="lang-jump">
+  <span>Jump to:</span>
+  <a href="#english">🇬🇧 English</a>
+  <a href="#bahasa-malaysia">🇲🇾 Bahasa Malaysia</a>
+</div>
+
 **Contents**
 
-## **English**
-
+## <span id="english"></span>English
 Dear friends,
 
 Last week, our agency visited our partner agency in JB for a joint final quarter planning, and we invited a few Singapore AIA agents to share their ways of conducting sales.
@@ -27,8 +32,7 @@ I have done some work making this table more accessible to the layman, but shoul
 
 I hope you find it useful. – wan
 
-## **Bahasa Malaysia**
-
+## <span id="bahasa-malaysia"></span>Bahasa Malaysia
 Apa khabar sahabat,
 
 Minggu lalu, agensi kami melawat pejabat agensi partner kami di JB untuk sesi perancangan suku tahun akhir. Kami juga menjemput beberapa ejen AIA dari Singapura supaya mereka boleh berkongsi ilmu jurujual mereka.

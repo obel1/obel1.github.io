@@ -7,10 +7,15 @@ tags:
 layout: post
 ---
 
+<div class="lang-jump">
+  <span>Jump to:</span>
+  <a href="#english">🇬🇧 English</a>
+  <a href="#bahasa-malaysia">🇲🇾 Bahasa Malaysia</a>
+</div>
+
 **Contents**
 
-## **English**
-
+## <span id="english"></span>English
 This year, AIA has revised the premium pricing for specific product portfolios.
 
 Some of you may have noticed that your premium has increased, or that you received a medical upgrade campaign WhatsApp from AIA, or both.
@@ -26,8 +31,7 @@ A summary of what can be done:
     3. Some of the added benefits are: 10 million annual limit, no limit of days per year for admissions, health screening limit increase to RM500 annually
     4. The downside to the upgrade would be that the new [deductible](/2021/02/08/deductible-co-insurance-co-takaful.html) increases to RM500 from RM0 / RM300.
 
-## **Bahasa Malaysia**
-
+## <span id="bahasa-malaysia"></span>Bahasa Malaysia
 Penyesuaian semula harga premium dan tawaran *medical upgrade*
 
 Tahun ini, AIA telah menyemak semula harga premium untuk portfolio produk tertentu.
