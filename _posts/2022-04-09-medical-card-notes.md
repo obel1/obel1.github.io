@@ -42,7 +42,7 @@ kecuali:
         - 3a & 3b apabila polisi < 90 hari
         - 3c apabila polisi < 2 tahun. [klik sini untuk sebab](/2021/01/25/tempoh-matang-dan-cara-cara-claim.html)
 5. Berkenaan deductible, klik sini: [Deductibles & SMART Deductible](/2024/08/27/deductibles-smart-deductible.html) 
-6. Klik di sini untuk [Claims abroad | Claim di luar negara](/2022/09/21/claims-abroad-claim-di-luar-negara.html) 
+6. Klik di sini untuk [Claims abroad - Claim di luar negara](/2022/09/21/claims-abroad-claim-di-luar-negara.html) 
 
 [Ada soalan lain?](https://wa.me/60147315389)
 
@@ -76,6 +76,6 @@ kecuali:
         - 3a & 3b when policy < 90 days
         - 3c when policy < 2 years
 5. On deductibles, click here: [Deductibles & SMART Deductible](/2024/08/27/deductibles-smart-deductible.html) 
-6. Click here for [Claims abroad | Claim di luar negara](/2022/09/21/claims-abroad-claim-di-luar-negara.html) 
+6. Click here for [Claims abroad - Claim di luar negara](/2022/09/21/claims-abroad-claim-di-luar-negara.html) 
 
 [Any questions?](https://wa.me/60147315389)
