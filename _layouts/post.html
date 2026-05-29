@@ -143,9 +143,9 @@ layout: default
       <span>{{ page.date | date: "%B %-d, %Y" }}</span>
       {% if page.tags %}
         {% for tag in page.tags %}
-          {% if tag == "Claims" %}<span class="post-tag tag-claims">Claims</span>
-          {% elsif tag == "Product Info" %}<span class="post-tag tag-product">Product Info</span>
-          {% else %}<span class="post-tag">{{ tag }}</span>
+          {% if tag == "Claims" %}<a class="post-tag tag-claims" href="/tag/claims/">Claims</a>
+          {% elsif tag == "Product Info" %}<a class="post-tag tag-product" href="/tag/product-info/">Product Info</a>
+          {% else %}<a class="post-tag" href="/tag/others/">{{ tag }}</a>
           {% endif %}
         {% endfor %}
       {% endif %}
