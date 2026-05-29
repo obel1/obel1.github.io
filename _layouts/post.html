@@ -253,3 +253,29 @@ layout: default
     <a href="{{ '/feed.xml' | relative_url }}">Subscribe via RSS</a>
   </footer>
 </article>
+
+<style>
+.lang-jump {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  background: var(--gold-pale);
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+  padding: 0.6rem 1rem;
+  margin-bottom: 1.5rem;
+  font-size: 0.8rem;
+}
+.lang-jump span { color: var(--ink-muted); font-weight: 600; letter-spacing: 0.05em; }
+.lang-jump a {
+  color: var(--teal);
+  text-decoration: none;
+  font-weight: 600;
+  padding: 3px 10px;
+  border: 1px solid var(--teal-light);
+  border-radius: 3px;
+  transition: all 0.15s;
+}
+.lang-jump a:hover { background: var(--teal); color: white; border-color: var(--teal); }
+</style>

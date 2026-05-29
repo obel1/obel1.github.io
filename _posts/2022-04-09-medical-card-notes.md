@@ -8,10 +8,15 @@ tags:
 layout: post
 ---
 
+<div class="lang-jump">
+  <span>Jump to:</span>
+  <a href="#bahasa-malaysia">🇲🇾 Bahasa Malaysia</a>
+  <a href="#english">🇬🇧 English</a>
+</div>
+
 **Contents**
 
-## Bahasa Malaysia
-
+## <span id="bahasa-malaysia"></span>Bahasa Malaysia
 1. Boleh claim: kemasukan wad & surgery ✅
 kecuali: 
     - kehamilan & penyakit berkait kehamilan ❌
@@ -41,8 +46,7 @@ kecuali:
 
 [Ada soalan lain?](https://wa.me/60147315389)
 
-## English
-
+## <span id="english"></span>English
 1. Covered: all admission/ surgery ✅
     
     Except:

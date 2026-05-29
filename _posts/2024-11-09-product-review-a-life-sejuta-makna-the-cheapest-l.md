@@ -7,8 +7,13 @@ tags:
 layout: post
 ---
 
-# English
+<div class="lang-jump">
+  <span>Jump to:</span>
+  <a href="#english">🇬🇧 English</a>
+  <a href="#bahasa-malaysia">🇲🇾 Bahasa Malaysia</a>
+</div>
 
+# <span id="english"></span>English
 If you’re looking for an affordable plan with high coverage, A-Life Sejuta Makna might be just what you need.
 
 ## **Why Choose A-Life Sejuta Makna?**
@@ -39,8 +44,7 @@ A unique feature of A-Life Sejuta Makna is the instrument of a conditional hibah
 | Estimated Surrender Value | RM 331,700 | RM 358,100 | 0 |
 | Premium/Contribution per Month | RM 442.50 | RM 462.50 | RM 210.00 |
 
-# Bahasa Malaysia
-
+# <span id="bahasa-malaysia"></span>Bahasa Malaysia
 Jika anda mencari pelan mampu milik dengan perlindungan yang tinggi, A-Life Sejuta Makna mungkin tepat untuk anda.
 
 ## **Kenapa Pilih A-Life Sejuta Makna?**

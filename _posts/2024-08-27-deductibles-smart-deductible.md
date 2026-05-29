@@ -7,10 +7,15 @@ tags:
 layout: post
 ---
 
+<div class="lang-jump">
+  <span>Jump to:</span>
+  <a href="#english">🇬🇧 English</a>
+  <a href="#bahasa-malaysia">🇲🇾 Bahasa Malaysia</a>
+</div>
+
 **Contents**
 
-## English
-
+## <span id="english"></span>English
 1. Health insurance helps cover the cost of hospital treatment. However, newer policies also require us to bear part of the costs. The primary reason for this is to balance sufficient coverage with affordable premiums. 
 2. Co-insurance and deductibles are the two main concepts where customers share part of the hospital bill. Co-insurance is a percentage of the total bill, while a deductible is a fixed amount that must be paid before the insurance covers the rest.
 3. Deductibles can help reduce our monthly premiums because we bear some of the risk of treatment costs. With AIA, there are now several deductible options, including the new ones: RM0/RM300 (available for existing customers only), RM500, RM500 SMART, RM500 + 20% coinsurance (capped at RM20k), and RM20k deductible.
@@ -31,8 +36,7 @@ See how it works in the images below (see heading SMART DEDUCTIBLE) |
 
 See how it works in the images below (see heading SMART DEDUCTIBLE) |
 
-## Bahasa Malaysia
-
+## <span id="bahasa-malaysia"></span>Bahasa Malaysia
 1. Kad medical membantu membayar kos rawatan di hospital. Walau bagaimanapun, polisi-polisi baru memerlukan kita membayar sebahagian dari kos tersebut. Sebabnya mengapa ia wujud adalah untuk mengekalkan keseimbangan antara perlindungan yang mencukupi dan kos caruman yang berpatutan.
 2. Co-insurans dan deductible adalah dua konsep utama di mana pelanggan membayar sebahagian dari bil hospital. Co-insurans adalah peratusan dari jumlah bil, manakala deductible adalah jumlah tetap yang perlu dibayar sebelum insurans menanggung selebihnya.
 3. Deductible boleh membantu mengurangkan caruman bulanan kita kerana kita menanggung sebahagian dari risiko kos rawatan. Di AIA, ada beberapa pilihan deductible, termasuk yang baru iaitu RM0/RM300 (hanya untuk pelanggan sedia ada), RM500, RM500 SMART, RM500 + 20% co-insurans (maksimum RM20k), dan deductible RM20k.
