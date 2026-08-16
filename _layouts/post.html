@@ -171,3 +171,14 @@ layout: default
     <a href="{{ '/' | relative_url }}">← Back to all posts</a>
   </footer>
 </article>
+
+<style>
+  /* Nested list markers: 1. -> a. -> i., regardless of "-" or "1." in the source */
+  .post-body ol ol,
+  .post-body ol ul { list-style-type: lower-alpha; }
+
+  .post-body ol ol ol,
+  .post-body ol ol ul,
+  .post-body ol ul ol,
+  .post-body ol ul ul { list-style-type: lower-roman; }
+</style>
